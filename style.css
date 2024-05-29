@@ -38,7 +38,7 @@ body {
 #word-container {
     margin-top: 20px;
     font-size: 1.5em;
-    color: #333;
+    color: rgb(101, 7, 63);
 }
 
 button {
@@ -59,8 +59,8 @@ button:hover {
 
 #bouquet-container {
     position: relative;
-    margin-top: 5rem; /* Center the container */
-    margin-bottom: 5rem; /* Center the container */
+    margin-top: 5rem; 
+    margin-bottom: 5rem; 
     display: flex;
     justify-content: center;
  
@@ -68,8 +68,8 @@ button:hover {
 
 .bouquet-img {
     position: absolute;
-    width: 15rem; /* Adjust size as needed */
-    height: 15rem; /* Adjust size as needed */
-    z-index: 1; /* Ensures images stack on top of each other */
+    width: 15rem; 
+    height: 15rem; 
+    z-index: 1; 
     margin-left: 1rem;
 }

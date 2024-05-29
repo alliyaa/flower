@@ -29,7 +29,7 @@ function addBouquetImage(letter) {
     const bouquetContainer = document.getElementById('bouquet-container');
 
     const img = document.createElement('img');
-    img.src = `${letter.toLowerCase()}.png`; // Assuming flower images are PNG with transparent background
+    img.src = `${letter.toLowerCase()}.png`; 
     img.className = 'bouquet-img';
 
 
