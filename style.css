@@ -81,22 +81,8 @@ button:hover {
     .mainpage {
         padding-top: 5rem;
         padding-bottom: 5rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
-    .letter {
-        width: 5rem;
-        height: 5rem;
-    }
-
-    #bouquet-container {
-        width: 200px;
-        height: 200px;
-    }
-
-    .bouquet-img {
-        width: 30px; 
-        height: 30px; 
-    }
 }
