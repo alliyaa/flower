@@ -96,65 +96,7 @@ button:hover {
     }
 
     .bouquet-img {
-        width: 30px; /* Adjust size for smaller screens */
-        height: 30px; /* Adjust size for smaller screens */
+        width: 30px; 
+        height: 30px; 
     }
-}
-
-#letters-container {
-    margin: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.letter-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-}
-
-.letter {
-    cursor: pointer;
-    width: 7rem;
-    height: 7rem;
-    margin: 5px;
-}
-
-#word-container {
-    margin-top: 20px;
-    font-size: 1.5em;
-    color: #333;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-
-
-#bouquet-container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 20px auto; 
-    border: 1px solid #ccc; 
-    overflow: hidden;
-}
-
-.bouquet-img {
-    position: absolute;
-    width: 50px; 
-    height: 50px; 
-    z-index: 1; 
-    margin: 5px; 
 }
