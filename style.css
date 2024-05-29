@@ -1,16 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: rgb(216, 247, 247);
 }
 
+
 .mainpage {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
     margin-top: 5rem;
+    padding-bottom: 10rem;
     border-radius: 3rem;
     margin-right: 3rem;
     margin-left: 3rem;
     color: rgb(101, 7, 63);
+
   
 }
 
@@ -46,7 +48,7 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    background-color: #ff6666;
+    background-color: #fb4646;
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff3333;
+    background-color: #e31818;
 }
 
 #bouquet-container {
@@ -72,4 +74,87 @@ button:hover {
     height: 15rem; 
     z-index: 1; 
     margin-left: 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .mainpage {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .letter {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #bouquet-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bouquet-img {
+        width: 30px; /* Adjust size for smaller screens */
+        height: 30px; /* Adjust size for smaller screens */
+    }
+}
+
+#letters-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.letter {
+    cursor: pointer;
+    width: 7rem;
+    height: 7rem;
+    margin: 5px;
+}
+
+#word-container {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+
+#bouquet-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto; 
+    border: 1px solid #ccc; 
+    overflow: hidden;
+}
+
+.bouquet-img {
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    z-index: 1; 
+    margin: 5px; 
 }
