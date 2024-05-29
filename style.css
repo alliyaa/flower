@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.mainpage {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color: rgb(101, 7, 63);
+  
+}
+
+#letters-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.letter {
+    cursor: pointer;
+    width: 7rem;
+    height: 7rem;
+    margin: 5px;
+}
+
+#word-container {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+#bouquet-container {
+    position: relative;
+    margin-top: 5rem; /* Center the container */
+    margin-bottom: 5rem; /* Center the container */
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.bouquet-img {
+    position: absolute;
+    width: 15rem; /* Adjust size as needed */
+    height: 15rem; /* Adjust size as needed */
+    z-index: 1; /* Ensures images stack on top of each other */
+    margin-left: 1rem;
+}
